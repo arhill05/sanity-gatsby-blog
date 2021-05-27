@@ -41,6 +41,7 @@
 }
 
 .title {
+  color: var(--color-primary-brand);
   @media (hover: hover) {
     @nest .root:hover & {
       text-decoration: underline;

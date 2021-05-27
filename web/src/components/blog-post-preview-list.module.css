@@ -6,7 +6,9 @@
 }
 
 .headline {
-  font-size: var(--font-micro-size);
+  font-size: var(--font-title3-size);
+  font-family: var(--font-family-bangers);
+  color: var(--color-primary-brand);
   line-height: var(--font-micro-line-height);
   font-weight: 600;
   text-transform: uppercase;

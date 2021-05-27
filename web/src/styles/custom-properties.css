@@ -1,5 +1,7 @@
 :root {
-  --font-family-sans: -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-family-sans: 'Open Sans', -apple-system, sans-serif;
+  --font-family-bangers: "Bangers", monospace;
+  --font-bangers-letter-spacing: 5px;
 
   --color-black: #202123;
   --color-dark-gray: #32373e;
@@ -8,6 +10,8 @@
   --color-very-light-gray: #e7ebed;
   --color-white: #fff;
   --color-accent: #156dff;
+  --color-purple: #93008d;
+  --color-primary-brand: var(--color-purple);
 
   /* Typography */
   --unit: 16;
