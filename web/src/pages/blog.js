@@ -34,7 +34,7 @@ export const query = graphql`
     }
   }
 
-  query IndexPageQuery {
+  query BlogPageQuery {
     site: sanitySiteSettings(_id: { regex: "/(drafts.|)siteSettings/" }) {
       title
       description
@@ -64,7 +64,7 @@ export const query = graphql`
   }
 `;
 
-const IndexPage = (props) => {
+const BlogPage = (props) => {
   const { data, errors } = props;
 
   if (errors) {
@@ -109,4 +109,4 @@ const IndexPage = (props) => {
   );
 };
 
-export default IndexPage;
+export default BlogPage;

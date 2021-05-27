@@ -32,5 +32,10 @@ export default {
       title: "Author",
       to: [{ type: "author" }],
     },
+    {
+      name: "heroImage",
+      type: "image",
+      title: "Hero Image",
+    }
   ],
 };
