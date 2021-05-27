@@ -19,10 +19,10 @@ export default {
                   apiId: "3c1d8d75-fc96-42fa-ab11-7f270bfca349",
                 },
                 {
-                  buildHookId: "60afcfcac5084a0ce28ce0f6",
+                  buildHookId: "60afe53e80fa9e00ae7f60fd",
                   title: "Blog Website",
-                  name: "sanity-gatsby-blog-web-1eckxdth",
-                  apiId: "385c2801-6635-4276-a790-ab84fdf267c9",
+                  name: "andrewhill",
+                  apiId: "990a95db-1d33-414b-b13c-89c5945aab62",
                 },
               ],
             },
