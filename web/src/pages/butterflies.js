@@ -1,5 +1,5 @@
 const ButterfliesPage = () => (
-  <html>
+  <>
     <body>
       <canvas id="canvas"></canvas>
     </body>
@@ -12,8 +12,7 @@ const ButterfliesPage = () => (
         })
       }
     </script>
-  </html>
-
+  </>
 );
 
 export default ButterfliesPage;
