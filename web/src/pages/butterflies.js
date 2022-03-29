@@ -9,7 +9,7 @@ const ButterfliesPage = () => (
     <body>
       <canvas id="canvas"></canvas>
     </body>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsmpeg/0.2/jsmpg.min.js"></script>
+    <script src={"jsmpeg.min.js"}></script>
     <script dangerouslySetInnerHTML={{ __html: rawScript }}></script>
   </html>
 
