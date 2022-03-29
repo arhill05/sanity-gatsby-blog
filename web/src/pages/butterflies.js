@@ -1,17 +1,18 @@
 import React from 'react';
+import JSMpeg from '@cycjimmy/jsmpeg-player';
 
 const ButterfliesPage = () => (
   <html>
     <body>
-      <canvas id="canvas"></canvas>
+      <div id="player"></div>
     </body>
 
-    <script type="text/javascript" src="jsmpeg.min.js"></script>
     <script type="text/javascript">
       {
-        player = new JSMpeg.Player("ws://75.53.186.22:5565", {
-          canvas: document.getElementById("canvas"), // Canvas should be a canvas DOM element
-        })
+        new JSMpeg.VideoElement('#player', "ws://75.53.186.22:5565")
+        // player = new JSMpeg.Vid("ws://75.53.186.22:5565", {
+        //   canvas: document.getElementById("canvas"), // Canvas should be a canvas DOM element
+        // })
       }
     </script>
   </html>
